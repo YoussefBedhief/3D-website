@@ -43,10 +43,12 @@ const AirUpModel = () => {
     //get the position and the target of the active camera
     const position = camera.position
     const target = camera.target
-    const exitButton = document.getElementById("button--exit") as HTMLElement
+    const exitButton = document.getElementById(
+      "button--exit"
+    ) as HTMLButtonElement
     const customizerInterface = document.getElementById(
       "customizer--container"
-    ) as HTMLElement
+    ) as HTMLDivElement
 
     // Add a popup(in HTML) with download progress when any asset is downloading.
     await viewer.addPlugin(AssetManagerBasicPopupPlugin)
@@ -227,12 +229,12 @@ const AirUpModel = () => {
     })
 
     // CUSTOMIZE
-    const firstsections = document.getElementById("first") as HTMLElement
-    const secondSection = document.getElementById("second") as HTMLElement
-    const thirdSection = document.getElementById("third") as HTMLElement
+    const firstsections = document.getElementById("first") as HTMLDivElement
+    const secondSection = document.getElementById("second") as HTMLDivElement
+    const thirdSection = document.getElementById("third") as HTMLDivElement
     const mainContainer = document.getElementById(
       "webgi-canvas-container"
-    ) as HTMLElement
+    ) as HTMLDivElement
     document
       .getElementById("button--customize")
       ?.addEventListener("click", () => {
