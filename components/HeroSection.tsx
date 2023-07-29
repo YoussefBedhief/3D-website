@@ -11,7 +11,7 @@ const HeroSection = () => {
           Air Up
         </p>
         <h1 className="z-30 font-extrabold text-4xl py-2">
-          New Gourd generation
+          New Bottle generation
         </h1>
         <p className="text-gray-500 text-xs z-30">
           Hydration Reinvented. Pure water, endless flavors.

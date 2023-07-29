@@ -11,16 +11,16 @@ const DisplaySection = () => {
         id="section--third--container"
       >
         <p className="font-bold uppercase text-transparent text-lg bg-clip-text bg-gradient-to-r from-[#ff7043] to-orange-600 py-3">
-          Custom your gourd
+          Custom your Bottle
         </p>
         <h1 className="font-extrabold text-5xl py-2">
           Unleash Flavorful Hydration with AirUp.
         </h1>
         <p className="text-gray-500 text-xs">
-          Customize Your Hydration Experience: With AirUp, you're in control.
-          Mix and match a variety of tantalizing flavor pods to create your
-          perfect hydration companion. Unleash your creativity and savor the
-          journey of crafting a personalized and refreshing taste adventure.
+          Customize Your Hydration Experience: With AirUp, youre in control. Mix
+          and match a variety of tantalizing flavor pods to create your perfect
+          hydration companion. Unleash your creativity and savor the journey of
+          crafting a personalized and refreshing taste adventure.
         </p>
         <div className="flex gap-x-3 py-4 justify-start">
           <button

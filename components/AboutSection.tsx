@@ -14,7 +14,7 @@ const AboutSection = () => {
           we are on a mission to revolutionize the way you hydrate.
         </p>
         <p className="text-gray-500 text-xs">
-          Our innovative gourde infuses pure water with mouthwatering flavors,
+          Our innovative bottle infuses pure water with mouthwatering flavors,
         </p>
         <p className="text-gray-500 text-xs">
           offering a refreshing and eco-friendly hydration experience.

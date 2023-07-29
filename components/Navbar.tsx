@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
       <button className="border border-white rounded-3xl py-2 px-5 flex items-center gap-x-2 hover:hover:bg-gradient-to-r from-[#ff7043] to-orange-600 hover:border-transparent">
         <WalletIcon className="h-5 w-5" />
-        Buy Gourd
+        Buy a Bottle
       </button>
     </div>
   )
